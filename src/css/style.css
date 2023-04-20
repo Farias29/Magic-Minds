@@ -1,0 +1,133 @@
+/* Set margin and padding to 0 for the body element */
+body {
+    margin: 0;
+    padding: 0;
+  }
+h1,p {
+    padding-left: 1rem;
+}
+  /* Style the navbar */
+  .navbar {
+    display: flex;
+    justify-content:flex-end;;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar a:hover {
+    color: white;
+  }
+  
+  /* Style the card layout */
+  .card-container {
+    display: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+  }
+  
+  .card {
+    cursor: pointer;
+    height: 14rem;
+    width: 22rem;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    margin: 1.5rem;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1e90ff;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  
+  /* Style the profile page */
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .profile h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .profile p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the about us page */
+  .aboutus {
+    margin: 20px;
+  }
+  
+  .aboutus h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .aboutus p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    display: flex; /* make the list items appear in a row */
+    list-style: none; /* remove bullet points */
+  }
+  
+  li {
+    margin-right: 20px; /* add space between list items */
+  }
+  
+  a {
+    font-weight: normal; /* set normal font weight */
+    text-decoration: none; /* remove underline */
+  }
+  
+  a:hover {
+    font-weight: bold; /* set bold font weight on hover */
+  }
+  
+  
