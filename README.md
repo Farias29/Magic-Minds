@@ -5,8 +5,29 @@ Group 7: Fab-Five
 
 Our goal is to address the fourth UN SDG of quality education by providing elementary students below the poverty line in Washington State with free access to educational resources, such as books, technology, and learning materials. We aim to alleviate the disadvantage faced by low-income families due to limited access to resources and funding, which can hinder academic performance and upward socioeconomic mobility. Our solution seeks to promote equity in education and reduce inequalities across race, class, and gender. We will measure the success of our solution through standardized test scores and student satisfaction surveys.
 
-# Features
+## Features
 
+* Log into Student or Parent view
+* User feedback survey 
+* FAQ page with Chat Bot
+
+## Types of Resource
+
+* For Parents:
+*   Tutoring Services 
+*   School Supplies
+
+* For Students:
+*   Educational Games
+*   Online Learning 
+
+## Group Members
+
+* Brielle Bush
+* Jonathan Farias 
+* Sydney Imokawa
+* Jameson Pastor
+* Raveena Rao
 
 # Getting Started with Create React App
 
@@ -78,3 +99,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## References 
+
+* ChatGPT
