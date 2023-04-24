@@ -13,11 +13,11 @@ Our goal is to address the fourth UN SDG of quality education by providing eleme
 
 ## Types of Resource
 
-* For Parents:
+For Parents:
 *   Tutoring Services 
 *   School Supplies
 
-* For Students:
+For Students:
 *   Educational Games
 *   Online Learning 
 
