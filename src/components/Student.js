@@ -1,30 +1,33 @@
 import React from 'react';
 import Cards from './Cards';
-import NavBar from './NavBar';
+import NavBarStudent from './NavBarStudent';
 
-function Home() {
+function Student() {
   return (
-    <div className="home">
-      <NavBar/>
+    <div className="student">
+    <NavBarStudent/>
       <h1>Education for all!</h1>
-      <p>Check out these resources!</p>
       <Cards 
-        title="Tutoring services"
+        title="Art"
         description="This is the description for Resource 1"/>
       <Cards 
-        title="School supplies"
+        title="History"
         description="This is the description for Resource 1"/>
       <Cards 
-        title="Online resources"
+        title="Math"
         description="This is the description for Resource 1"/>
       <Cards 
-        title="Educational Games"
+        title="Reading"
         description="This is the description for Resource 1"/>
       <Cards 
-        title="FAQ"
+        title="Science"
         description="This is the description for Resource 1"/>
+      <Cards 
+        title="Writing"
+        description="This is the description for Resource 1"/>
+
     </div>
   );
 }
 
-export default Home;
+export default Student;

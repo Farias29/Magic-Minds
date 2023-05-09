@@ -6,13 +6,16 @@ const NavBar = () => {
     <nav className="navbar">
     <ul className="navbar-nav mr-auto">
     <li className="nav-item">
-        <Link to="/home" className="nav-link">Home</Link>
+        <Link to="/home" className="nav-link">Dashboard</Link>
     </li>
     <li className="nav-item">
         <Link to="/about-us" className="nav-link">About Us</Link>
     </li>
     <li className="nav-item">
-        <Link to="/profile" className="nav-link">Profile</Link>
+        <Link to="/faq" className="nav-link">FAQ</Link>
+    </li>
+    <li className="nav-item">
+        <Link to="/student" className="nav-link">Switch View</Link>
     </li>
     </ul>
 

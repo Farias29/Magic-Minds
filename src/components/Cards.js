@@ -8,8 +8,8 @@ const Cards = ({ title, description, link }) => {
       <Link to={link}>
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <p className="card-text">{description}</p>
+            <h1 className="card-title">{title}</h1>
+            <h3 className="card-text">{description}</h3>
           </div>
         </div>
       </Link>

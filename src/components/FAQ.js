@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 
-function AboutUs() {
+function FAQ() {
   return (
     <div>
       <NavBar/>
@@ -11,4 +11,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default FAQ;

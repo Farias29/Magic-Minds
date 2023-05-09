@@ -1,14 +1,14 @@
 import React from 'react';
-import NavBar from './NavBar';
+import NavBarStudent from './NavBarStudent';
 
-function AboutUs() {
+function FAQStudent() {
   return (
     <div>
-      <NavBar/>
+      <NavBarStudent/>
       <h1>About Us</h1>
       <p>*something about why we are interested in equality in education*!</p>
     </div>
   );
 }
 
-export default AboutUs;
+export default FAQStudent;
