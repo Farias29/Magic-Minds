@@ -12,6 +12,7 @@ import './index.css';
 import FAQStudent from './components/FAQStudent';
 import FAQ from './components/FAQ';
 import LanguageSelector from './components/LanguageSelector';
+import Math from './components/Math';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           <Route exact path="/student" component={Student} />
           <Route exact path="/nav-bar" component={NavBar} />
           <Route exact path="/faq" component={FAQ} />
-          <Route exact path="/faq-student" component={FAQStudent} />          
+          <Route exact path="/faq-student" component={FAQStudent} />  
+          <Route exact path="/student/math" component={Math} />          
         </Switch>
       </div>
     </Router>
