@@ -6,7 +6,7 @@ function Student() {
   return (
     <div className="student">
     <NavBarStudent/>
-      <h1>Education for all!</h1>
+      <h1>Student View</h1>
       <Cards 
         title="Art"
         description="This is the description for Resource 1"/>

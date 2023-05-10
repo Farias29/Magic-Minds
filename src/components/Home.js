@@ -1,13 +1,13 @@
 import React from 'react';
 import Cards from './Cards';
 import NavBar from './NavBar';
+import LanguageSelector from './LanguageSelector';
 
 function Home() {
   return (
     <div className="home">
       <NavBar/>
-      <h1>Education for all!</h1>
-      <p>Check out these resources!</p>
+      <h1>Parent View</h1>
       <Cards 
         title="Tutoring services"
         description="This is the description for Resource 1"/>

@@ -11,6 +11,7 @@ import Student from './components/Student';
 import './index.css';
 import FAQStudent from './components/FAQStudent';
 import FAQ from './components/FAQ';
+import LanguageSelector from './components/LanguageSelector';
 
 function App() {
   return (

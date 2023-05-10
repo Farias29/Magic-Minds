@@ -5,7 +5,7 @@ function FAQ() {
   return (
     <div>
       <NavBar/>
-      <h1>About Us</h1>
+      <h1>Frequent Asked Questions</h1>
       <p>*something about why we are interested in equality in education*!</p>
     </div>
   );
