@@ -20,9 +20,6 @@ function Home() {
       <Cards 
         title="Educational Games"
         description="This is the description for Resource 1"/>
-      <Cards 
-        title="FAQ"
-        description="This is the description for Resource 1"/>
     </div>
   );
 }
