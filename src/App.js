@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/nav-bar" component={NavBar} />
           <Route exact path="/faq" component={FAQ} />
           <Route exact path="/faq-student" component={FAQStudent} />  
-          <Route exact path="/student/math" component={Math} />          
+          <Route exact path="/math" component={Math} />          
         </Switch>
       </div>
     </Router>

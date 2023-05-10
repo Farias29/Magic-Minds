@@ -1,6 +1,7 @@
 import React from 'react';
 import Cards from './Cards';
 import NavBarStudent from './NavBarStudent';
+import Math from './Math'
 
 function Student() {
   return (
@@ -15,7 +16,8 @@ function Student() {
         description="This is the description for Resource 1"/>
       <Cards 
         title="Math"
-        description="This is the description for Resource 1"/>
+        description="This is the description for Resource 1"
+        link = "/math"/>
       <Cards 
         title="Reading"
         description="This is the description for Resource 1"/>
