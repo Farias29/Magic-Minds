@@ -1,7 +1,8 @@
 import React from 'react';
 import Cards from './Cards';
 import NavBarStudent from './NavBarStudent';
-import Math from './Math'
+import Math from './Math';
+import Writing from './Writing';
 
 function Student() {
   return (
@@ -26,8 +27,8 @@ function Student() {
         description="This is the description for Resource 1"/>
       <Cards 
         title="Writing"
-        description="This is the description for Resource 1"/>
-
+        description="This is the description for Resource 1"
+        link="/writing"/>
     </div>
   );
 }
