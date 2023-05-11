@@ -1,6 +1,9 @@
 import React from 'react';
 import Cards from './Cards';
 import NavBar from './NavBar';
+import TUTORING from './img/TUTORING.png';
+import SUPPLIES from './img/SUPPLIES.jpg';
+import DEVICES from './img/DEVICES.jpg';
 import LanguageSelector from './LanguageSelector';
 
 function Home() {
@@ -9,17 +12,17 @@ function Home() {
       <NavBar/>
       <h1>Parent View</h1>
       <Cards 
-        title="Tutoring services"
-        description="This is the description for Resource 1"/>
+        title="Tutoring Services"
+        description="This is the description for Resource 1"
+        image={TUTORING}/>
       <Cards 
-        title="School supplies"
-        description="This is the description for Resource 1"/>
+        title="School Supplies"
+        description="This is the description for Resource 1"
+        image={SUPPLIES}/>
       <Cards 
-        title="Online resources"
-        description="This is the description for Resource 1"/>
-      <Cards 
-        title="Educational Games"
-        description="This is the description for Resource 1"/>
+        title="Affordable Devices"
+        description="This is the description for Resource 1"
+        image={DEVICES}/>
     </div>
   );
 }
