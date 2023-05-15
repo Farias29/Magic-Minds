@@ -16,6 +16,8 @@ import Math from './components/Math';
 import Writing from './components/Writing';
 import SocialStudies from './components/SocialStudies';
 import Science from './components/Science';
+import Art from './components/Art';
+import Reading from './components/Reading';
 
 function App() {
   return (
@@ -35,7 +37,9 @@ function App() {
           <Route exact path="/math" component={Math} />
           <Route exact path="/writing" component={Writing} />        
           <Route exact path="/socialstudies" component={SocialStudies} />
-          <Route exact path="/science" component={Science} />               
+          <Route exact path="/science" component={Science} />  
+          <Route exact path="/reading" component={Reading} />
+          <Route exact path="/art" component={Art} />           
         </Switch>
       </div>
     </Router>
