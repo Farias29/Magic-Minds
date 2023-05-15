@@ -14,6 +14,8 @@ import FAQ from './components/FAQ';
 import LanguageSelector from './components/LanguageSelector';
 import Math from './components/Math';
 import Writing from './components/Writing';
+import SocialStudies from './components/SocialStudies';
+import Science from './components/Science';
 
 function App() {
   return (
@@ -31,7 +33,11 @@ function App() {
           <Route exact path="/faq" component={FAQ} />
           <Route exact path="/faq-student" component={FAQStudent} />  
           <Route exact path="/math" component={Math} />
-          <Route exact path="/writing" component={Writing} />            
+          <Route exact path="/writing" component={Writing} />        
+          <Route exact path="/socialstudies" component={SocialStudies} />
+          <Route exact path="/reading" component={Reading} /> 
+          <Route exact path="/art" component={Art} />
+          <Route exact path="/science" component={Science} />               
         </Switch>
       </div>
     </Router>
