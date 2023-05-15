@@ -13,15 +13,12 @@ function Home() {
       <h1>Parent View</h1>
       <Cards 
         title="Tutoring Services"
-        description="This is the description for Resource 1"
         image={TUTORING}/>
       <Cards 
         title="School Supplies"
-        description="This is the description for Resource 1"
         image={SUPPLIES}/>
       <Cards 
         title="Affordable Devices"
-        description="This is the description for Resource 1"
         image={DEVICES}/>
     </div>
   );
