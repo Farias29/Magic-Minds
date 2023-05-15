@@ -16,9 +16,11 @@ function Student() {
       <h1>Student View</h1>
       <Cards 
         title="Art"
+        link="/art"
         image={ART}/>
       <Cards 
         title="Social Studies"
+        link="/socialstudies"
         image={SOCIAL}/>
       <Cards 
         title="Math"
@@ -26,9 +28,11 @@ function Student() {
         image={MATH}/>
       <Cards 
         title="Reading"
+        link="/reading"
         image={READING}/>
       <Cards 
         title="Science"
+        link="/science"
         image={SCIENCE}/>
       <Cards 
         title="Writing"
