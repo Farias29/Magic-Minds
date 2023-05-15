@@ -35,8 +35,6 @@ function App() {
           <Route exact path="/math" component={Math} />
           <Route exact path="/writing" component={Writing} />        
           <Route exact path="/socialstudies" component={SocialStudies} />
-          <Route exact path="/reading" component={Reading} /> 
-          <Route exact path="/art" component={Art} />
           <Route exact path="/science" component={Science} />               
         </Switch>
       </div>
