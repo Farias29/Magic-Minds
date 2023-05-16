@@ -81,7 +81,16 @@ h1,h2 {
   .card:hover {
     transform: translateY(-10px);
   }
-  
+
+  .text {
+    margin-left: 10px;
+    border-radius: 25%;
+    background-color: white;
+  }
+
+  .text:hover {
+    color: red;
+  }
   
   /* Style the profile page */
   .profile {

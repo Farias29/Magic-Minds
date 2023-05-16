@@ -3,11 +3,13 @@ import Cards from './Cards';
 import NavBar from './NavBar';
 import { Link } from 'react-router-dom';
 import LanguageSelector from './LanguageSelector';
+import BackButton from './BackButton';
 
 function Math() {
   return (
     <div className="math">
       <h1>Math</h1>
+      <BackButton/>
       <Link 
         title="Game 1"
         />

@@ -3,11 +3,13 @@ import Cards from './Cards';
 import NavBar from './NavBar';
 import { Link } from 'react-router-dom';
 import LanguageSelector from './LanguageSelector';
+import BackButton from './BackButton';
 
 function Reading() {
   return (
     <div className="reading">
       <h1>Reading</h1>
+      <BackButton/>
       <Link 
         title="Game 1"
         description="This is the description for Game 1"/>
