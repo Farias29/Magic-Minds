@@ -1,5 +1,7 @@
 import React from 'react';
 import Cards from './Cards';
+import STUDENT from './img/STUDENT.jpg';
+import PARENT from './img/PARENT.png';
 
 function Landing() {
   return (
@@ -10,12 +12,12 @@ function Landing() {
       <Cards 
         link ="/student"
         title="Student"
-        description="Click if you are a student"
+        image={STUDENT}
         />
       <Cards
         link="/home" 
         title="Parent"
-        description="Click if you are a parent"/> 
+        image={PARENT}/> 
       </div>
     </div>
   );
