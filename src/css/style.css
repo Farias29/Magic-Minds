@@ -25,6 +25,7 @@ h1,h2 {
     text-decoration: none;
     margin-left: 20px;
   }
+
   
   .navbar a:hover {
     color: white;
@@ -37,6 +38,11 @@ h1,h2 {
     background-color: rgb(35, 35, 116);
     color: white;
     padding: 10px 20px;
+  }
+
+  .logo{
+    size: 10px;
+    justify-content: center;
   }
 
   .navbarstudent a {
@@ -181,4 +187,5 @@ h1,h2 {
     background-color: blue;
     color: white;
   }
+  
   
