@@ -151,4 +151,16 @@ h1,h2 {
     font-weight: bold; /* set bold font weight on hover */
   }
   
+  .back-button {
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 2rem;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .back-button.clicked {
+    background-color: blue;
+    color: white;
+  }
   
