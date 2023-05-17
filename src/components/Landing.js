@@ -7,7 +7,7 @@ import MAGIC from './img/MagicMindsIcon.png'
 function Landing() {
   return (
     <div>
-      <h1>Welcome to Magic Mind </h1> 
+      <h1>Welcome to Magic Minds </h1> 
       <img class="logo" src={MAGIC} alt="Icon" />
       <h2>Select your view</h2>
       <div className='card-container-landing'>
