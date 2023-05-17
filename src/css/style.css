@@ -15,7 +15,7 @@ h1,h2 {
     display: flex;
     justify-content:flex-end;;
     align-items: center;
-    background-color: #333;
+    background-color: maroon;
     color: white;
     padding: 10px 20px;
   }
@@ -25,11 +25,35 @@ h1,h2 {
     text-decoration: none;
     margin-left: 20px;
   }
+
   
   .navbar a:hover {
     color: white;
   }
+
+    .navbarstudent {
+    display: flex;
+    justify-content:flex-end;;
+    align-items: center;
+    background-color: rgb(35, 35, 116);
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .logo{
+    size: 10px;
+    justify-content: center;
+  }
+
+  .navbarstudent a {
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    margin-left: 20px;
+  }
   
+  .navbarstudent a:hover {
+    color: white;
+  }
   /* Style the card layout */
   .card-container-landing {
     display: flex;
@@ -163,4 +187,5 @@ h1,h2 {
     background-color: blue;
     color: white;
   }
+  
   
