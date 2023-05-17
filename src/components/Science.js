@@ -8,8 +8,9 @@ import BackButton from './BackButton';
 function Science() {
   return (
     <div className="science">
-      <BackButton/>
+
       <h1>Science</h1>
+      <BackButton/>
       <Link 
         title="Game 1"
         />
