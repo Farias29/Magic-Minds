@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import Cards from './Cards';
+import ResourceCards from './ResourceCards';
 import BackButton from './BackButton';
+import SPLASH from './img/SPLASH.jpg';
+import LEARN from './img/LEARN.png';
+import BLASTER from './img/BLASTER.jpg';
+import PLAYGROUND from './img/PLAYGROUND.png';
 
 const Math = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -13,26 +17,26 @@ const Math = () => {
     const resources = {
       Games: [
         {
-          title: 'Game 1',
-          link: '/game2',
-          image: 'path/to/game1.png',
+          title: 'Splash Math',
+          link: 'https://www.splashlearn.com/math-games',
+          image:SPLASH,
         },
         {
-          title: 'Game 2',
-          link: '/game2',
-          image: 'path/to/game2.png',
+          title: 'Math Playground',
+          link: 'https://www.mathplayground.com/',
+          image:PLAYGROUND,
+        },
+        {
+          title: 'Math Blaster',
+          link: 'http://www.mathblaster.com/default.aspx',
+          image:BLASTER,
         },
       ],
       Practice: [
         {
-          title: 'Practice Resource 1',
-          link: '/practice1',
-          image: 'path/to/practice1.png',
-        },
-        {
-          title: 'Practice Resource 2',
-          link: '/practice2',
-          image: 'path/to/practice2.png',
+          title: 'Splash Math Practice',
+          link: 'https://www.splashlearn.com/resources',
+          image:LEARN,
         },
       ],
     };
@@ -40,11 +44,13 @@ const Math = () => {
     return resources[selectedCategory];
   };
 
+  
+
   const renderResources = () => {
     const resources = getResourcesByCategory();
 
     return resources.map((resource, index) => (
-      <Cards key={index} title={resource.title} link={resource.link} image={resource.image} />
+      <ResourceCards key={index} title={resource.title} image={resource.image} link={resource.link} />
     ));
   };
 
@@ -63,5 +69,4 @@ const Math = () => {
     </div>
   );
 };
-
 export default Math;

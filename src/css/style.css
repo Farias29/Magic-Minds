@@ -11,11 +11,15 @@ h1,h2 {
   text-align: center;
 }
   /* Style the navbar */
+  .navbar-icon {
+    justify-content: flex-start;
+  }
+
   .navbar {
     display: flex;
     justify-content:flex-end;;
     align-items: center;
-    background-color: maroon;
+    background-color: rgb(209, 112, 112);
     color: white;
     padding: 10px 20px;
   }
@@ -33,16 +37,15 @@ h1,h2 {
 
     .navbarstudent {
     display: flex;
-    justify-content:flex-end;;
+
     align-items: center;
-    background-color: rgb(35, 35, 116);
+    background-color: rgb(62, 172, 172);
     color: white;
     padding: 10px 20px;
   }
 
-  .logo{
-    size: 10px;
-    justify-content: center;
+  .ul{
+    justify-content: flex-end;
   }
 
   .navbarstudent a {
