@@ -7,7 +7,7 @@ const NavBarStudent = () => {
 
       <nav className="navbarstudent">
       <div className="navbar-icon">
-      <img class="logo" src={MAGIC} alt="Icon" />
+      <img src={MAGIC} alt="Icon" />
       </div>
       <ul className="navbar-nav mr-auto">
       <li className="nav-item">

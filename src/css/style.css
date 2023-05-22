@@ -12,7 +12,13 @@ h1,h2 {
 }
   /* Style the navbar */
   .navbar-icon {
-    justify-content: flex-start;
+    left: 10px;
+    position: absolute;
+  }
+
+  .icon {
+    right: 10px;
+    position: absolute;
   }
 
   .navbar {
@@ -37,15 +43,11 @@ h1,h2 {
 
     .navbarstudent {
     display: flex;
-
+    justify-content:flex-end;
     align-items: center;
     background-color: rgb(62, 172, 172);
     color: white;
     padding: 10px 20px;
-  }
-
-  .ul{
-    justify-content: flex-end;
   }
 
   .navbarstudent a {
