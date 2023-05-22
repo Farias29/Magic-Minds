@@ -14,17 +14,46 @@ function FAQ() {
 
         <div class="faq-container">
           <div class="faq">
-            <h2 class="question">Question 1</h2>
-            <p class="answer">Answer 1</p>
+            <h2 class="question">What are the different "views"?</h2>
+            <p class="answer">Our website offers two different views to offer a more customized and enhanced user
+            experience. The student view is organized by school subject where the user can explore educational games and
+            learning resources. The parent view offers a different set of resources, such as tutoring and other ways to
+            help your child succeed!</p>
           </div>
           <div class="faq">
-            <h2 class="question">Question 2</h2>
-            <p class="answer">Answer 2</p>
+            <h2 class="question">How can I best support my child?</h2>
+            <p class="answer">Here at Magic Minds, we believe in equity in education... more stuff </p>
+          </div>
+          <div class="faq">
+            <h2 class="question">Why should I use Magic Minds?</h2>
+            <p class="answer">Answer 3</p>
+          </div>
+          <div class="faq">
+            <h2 class="question">How should I use Magic Minds?</h2>
+            <p class="answer">Answer 4</p>
+          </div>
+          <div class="faq">
+            <h2 class="question">Is Magic Minds safe for my shild to use?</h2>
+            <p class="answer">Answer 5</p>
           </div>
           
         </div>
     </div>
-  );
+    
+  );  
 }
+const questions = document.querySelectorAll('.question');
 
+    questions.forEach(question => {
+      question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+
+        // Toggle the 'active' class on the answer
+        answer.classList.toggle('active');
+
+        // Change the text of the question to indicate open/closed state
+        question.classList.toggle('open');
+        question.classList.toggle('closed');
+      });
+    });
 export default FAQ;

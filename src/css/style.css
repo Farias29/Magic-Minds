@@ -10,6 +10,32 @@ h1,h2 {
   padding-left: 1rem;
   text-align: center;
 }
+
+/* FAQ item styles */
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+
+/* Question styles */
+.question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Answer styles */
+.answer {
+  display: none;
+}
+.answer.active {
+  display: block;
+}
+
+
   /* Style the navbar */
   .navbar-icon {
     left: 10px;
