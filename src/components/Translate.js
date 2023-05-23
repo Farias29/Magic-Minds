@@ -11,7 +11,8 @@ let language = "es";
         language = "eng";
       };
   return (
-    <button className="translate-button" onClick={translate} value="eng">
+    <button className="translate-button" onClick={translate} >
+      es
     </button>
   );
 };
