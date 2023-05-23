@@ -2,6 +2,14 @@ import React from 'react';
 import NavBar from './NavBar';
 
 function FAQ() {
+  function toggleFunction() {
+    var x = document.getElementById("answer");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
   return (
     <div>
       <NavBar/>
@@ -14,8 +22,8 @@ function FAQ() {
 
         <div class="faq-container">
           <div class="faq">
-            <h2 class="question">What are the different "views"?</h2>
-            <p class="answer">Our website offers two different views to offer a more customized and enhanced user
+            <button onclick="toggleFunction()" class="question">What are the different "views"?</button>
+            <p id="answer">Our website offers two different views to offer a more customized and enhanced user
             experience. The student view is organized by school subject where the user can explore educational games and
             learning resources. The parent view offers a different set of resources, such as tutoring and other ways to
             help your child succeed!</p>
@@ -42,18 +50,5 @@ function FAQ() {
     
   );  
 }
-const questions = document.querySelectorAll('.question');
 
-    questions.forEach(question => {
-      question.addEventListener('click', () => {
-        const answer = question.nextElementSibling;
-
-        // Toggle the 'active' class on the answer
-        answer.classList.toggle('active');
-
-        // Change the text of the question to indicate open/closed state
-        question.classList.toggle('open');
-        question.classList.toggle('closed');
-      });
-    });
 export default FAQ;
