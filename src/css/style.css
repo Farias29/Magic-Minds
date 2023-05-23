@@ -218,5 +218,43 @@ h1,h2 {
     background-color: blue;
     color: white;
   }
+
+  /*Translator*/
+  .eng{
+    display: block;
+  }
+  
+  .es{
+    display: none;
+  }
+
+  .translate-button{
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 2rem;
+    background-color: rgb(210, 210, 210);
+    text-decoration: none;
+    color: black;
+    right: 10px;
+    position: absolute;
+    border-radius: 35%;
+  }
+  .translate-button:hover{
+    background-color: white;
+    border-color: rgb(210, 210, 210);
+  }
+
+  /*Footer*/
+  footer {
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: block;
+  }  
+
   
   

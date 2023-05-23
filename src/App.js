@@ -18,6 +18,7 @@ import SocialStudies from './components/SocialStudies';
 import Science from './components/Science';
 import Art from './components/Art';
 import Reading from './components/Reading';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route exact path="/reading" component={Reading} />
           <Route exact path="/art" component={Art} />           
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
