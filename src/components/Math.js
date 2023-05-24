@@ -5,6 +5,7 @@ import SPLASH from './img/SPLASH.jpg';
 import LEARN from './img/LEARN.png';
 import BLASTER from './img/BLASTER.jpg';
 import PLAYGROUND from './img/PLAYGROUND.png';
+import NavBarLanding from './NavBarLanding';
 
 const Math = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -56,7 +57,9 @@ const Math = () => {
 
   return (
     <div className="math">
-      <h1>Math</h1>
+      <NavBarLanding/>
+      <h1 className='en'>Math</h1>
+      <h1 className='es'>Matemáticas</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>

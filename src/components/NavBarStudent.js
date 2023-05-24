@@ -19,9 +19,6 @@ const NavBarStudent = () => {
           <Link to="/about-us-student" className="nav-link">About Us</Link>
       </li>
       <li className="nav-item">
-          <Link to="/faq-student" className="nav-link">FAQ</Link>
-      </li>
-      <li className="nav-item">
         <Link to="/home" className="nav-link">Switch View</Link>
     </li>
       </ul>

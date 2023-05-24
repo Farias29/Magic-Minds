@@ -6,6 +6,7 @@ import QUICK from './img/QUICK.jpg';
 import ARTPBS from './img/ARTPBS.png';
 import TATEKIDS from './img/TATEKIDS.png';
 import QUIZZES from './img/QUIZZES.png';
+import NavBarLanding from './NavBarLanding';
 
 const Art = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -62,6 +63,7 @@ const Art = () => {
 
   return (
     <div className="art">
+      <NavBarLanding/>
       <h1 className='en'>Art</h1>
       <h1 className='es'>Arte</h1>
       <BackButton />

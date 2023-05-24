@@ -5,6 +5,7 @@ import PBS from './img/PBS.jpg';
 import MONSTER from './img/MONSTER.png';
 import SPLASHREADING from './img/SPLASHREADING.png';
 import IXLREADING from './img/IXLREADING.png';
+import NavBarLanding from './NavBarLanding';
 
 
 const Reading = () => {
@@ -57,6 +58,7 @@ const Reading = () => {
 
   return (
     <div className="reading">
+      <NavBarLanding/>
       <h1 className='en'>Reading</h1>
       <h1 className='es'>Lectura</h1>
       <BackButton />

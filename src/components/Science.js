@@ -6,6 +6,7 @@ import NASA from './img/NASA.png';
 import KIDS from './img/KIDS.png';
 import IXLSCIENCE from './img/IXLSCIENCE.png';
 import SUPER from './img/SUPER.jpg';
+import NavBarLanding from './NavBarLanding';
 
 const Science = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -62,7 +63,9 @@ const Science = () => {
 
   return (
     <div className="science">
-      <h1>Science</h1>
+      <NavBarLanding/>
+      <h1 className='en'>Science</h1>
+      <h1 className='es'>Ciencia</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>

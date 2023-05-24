@@ -6,6 +6,7 @@ import FUN from './img/FUN.png';
 import TOPMARKS from './img/TOPMARKS.jpg';
 import EDUCATION from './img/EDUCATION.png';
 import GREAT from './img/GREAT.png';
+import NavBarLanding from './NavBarLanding';
 
 const Writing = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -62,7 +63,9 @@ const Writing = () => {
 
   return (
     <div className="writing">
-      <h1>Writing</h1>
+      <NavBarLanding/>
+      <h1 className='en'>Writing</h1>
+      <h1 className='es'>Escritura</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>

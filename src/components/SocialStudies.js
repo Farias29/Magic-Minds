@@ -5,6 +5,7 @@ import ICIVICS from './img/ICIVICS.png';
 import MISSION from './img/MISSION.jpg';
 import BBC from './img/BBC.jpg';
 import IXL from './img/IXL.png';
+import NavBarLanding from './NavBarLanding';
 
 const SocialStudies = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -56,7 +57,9 @@ const SocialStudies = () => {
 
   return (
     <div className="socialstudies">
-      <h1>Social Studies</h1>
+      <NavBarLanding/>
+      <h1 className='en'>Social Studies</h1>
+      <h1 className='es'>Ciencias Sociales</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>
