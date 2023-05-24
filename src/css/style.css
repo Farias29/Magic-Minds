@@ -22,7 +22,7 @@ h1,h2 {
 }
 
 /* Question styles */
-.questions {
+.question {
   font-weight: bold;
   cursor: pointer;
 }
@@ -33,22 +33,6 @@ h1,h2 {
 }
 .answer.active {
   display: block;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.column {
-  flex-basis: 100%;
-}
-
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 1;
-  }
 }
 
 
@@ -69,7 +53,7 @@ h1,h2 {
     align-items: center;
     background-color: rgb(209, 112, 112);
     color: white;
-    padding: 10px 20px;
+    padding: 10px 80px;
   }
   
   .navbar a {
@@ -89,7 +73,16 @@ h1,h2 {
     align-items: center;
     background-color: rgb(62, 172, 172);
     color: white;
-    padding: 10px 20px;
+    padding: 10px 80px;
+  }
+
+  .navbarlanding {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: rgb(119, 114, 121);
+    color: white;
+    padding: 35px 80px;
   }
 
   .navbarstudent a {
@@ -223,6 +216,7 @@ h1,h2 {
   }
   
   .back-button {
+    cursor: pointer;
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 2rem;
@@ -236,7 +230,7 @@ h1,h2 {
   }
 
   /*Translator*/
-  .eng{
+  .en{
     display: block;
   }
   
@@ -245,6 +239,7 @@ h1,h2 {
   }
 
   .translate-button{
+    cursor: pointer;
     margin-top: 5px;
     padding: 10px;
     margin-left: 10px;
@@ -252,9 +247,10 @@ h1,h2 {
     background-color: rgb(210, 210, 210);
     text-decoration: none;
     color: black;
-    right: 10px;
+    right: 25px;
+    top: 10px;;
     position: absolute;
-    border-radius: 35%;
+    border-radius: 30%;
   }
   .translate-button:hover{
     background-color: white;
@@ -271,3 +267,6 @@ h1,h2 {
     height: 50px;
     display: block;
   }  
+
+  
+  

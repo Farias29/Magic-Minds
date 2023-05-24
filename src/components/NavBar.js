@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MAGIC from './img/MagicMindsIcon.png';
+import Translate from './Translate';
 
 const NavBar = () => {
   return (
@@ -9,6 +10,7 @@ const NavBar = () => {
         <img src={MAGIC} alt="Icon" />
       </div>
     <ul className="navbar-nav mr-auto">
+      <Translate/>
     <li className="nav-item">
         <Link to="/home" className="nav-link">Dashboard</Link>
     </li>

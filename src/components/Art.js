@@ -62,7 +62,8 @@ const Art = () => {
 
   return (
     <div className="art">
-      <h1>Art</h1>
+      <h1 className='en'>Art</h1>
+      <h1 className='es'>Arte</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>

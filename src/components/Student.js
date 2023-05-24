@@ -13,11 +13,13 @@ function Student() {
   return (
     <div className="student">
     <NavBarStudent/>
-      <h1>Student View</h1>
+      <h1 className='en'>Student View</h1>
+      <h1 className='es'>Vista del Estudiante</h1>
       <Cards 
         title="Art"
         link="/art"
         image={ART}/>
+
       <Cards 
         title="Social Studies"
         link="/socialstudies"

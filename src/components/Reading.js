@@ -57,7 +57,8 @@ const Reading = () => {
 
   return (
     <div className="reading">
-      <h1>Reading</h1>
+      <h1 className='en'>Reading</h1>
+      <h1 className='es'>Lectura</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>

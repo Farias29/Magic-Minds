@@ -2,16 +2,20 @@ import React from 'react';
 
 const Translate = () => {
 
-let language = "es";
-
     const translate = () => {
-
-        document.querySelector('.eng').style.display = 'none';
+      let english = document.querySelector('.es').style.display == 'block';
+      if(!english) {
+        document.querySelector('.en').style.display = 'none';
         document.querySelector('.es').style.display = 'block';
-        language = "eng";
+        english = document.querySelector('.en').style.display = 'none'
+        } else {
+          english = document.querySelector('.en').style.display = 'display'
+          document.querySelector('.en').style.display = 'block';
+          document.querySelector('.es').style.display = 'none';
+        }
       };
   return (
-    <button className="translate-button" onClick={translate} >
+    <button className="translate-button" onClick={translate}>
       es
     </button>
   );

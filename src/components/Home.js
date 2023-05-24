@@ -10,7 +10,8 @@ function Home() {
   return (
     <div className="home">
       <NavBar/>
-      <h1>Parent View</h1>
+      <h1 className='eng'>Parent View</h1>
+      <h1 className='es'>Vista del Padre</h1>
       <Cards 
         title="Tutoring Services"
         image={TUTORING}/>
