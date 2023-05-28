@@ -7,19 +7,25 @@ Our goal is to address the fourth UN SDG of quality education by providing eleme
 
 ## Features
 
-* Log into Student or Parent view
-* User feedback survey 
-* FAQ page with Chat Bot
+* Switch views to Student or Parent view
+* English to Spanish Translation
+* FAQ
+* About Us page with video
 
 ## Types of Resource
 
 For Parents:
 *   Tutoring Services 
 *   School Supplies
+*   Affordable Devices
 
-For Students:
-*   Educational Games
-*   Online Learning 
+For Students (each subject has educational games and practice resources):
+*   Art
+*   Social Studies
+*   Math
+*   Reading
+*   Science
+*   Writing
 
 ## Group Members
 
