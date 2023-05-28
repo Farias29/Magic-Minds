@@ -7,23 +7,39 @@ import NavBarLanding from './NavBarLanding';
 function Landing() {
   return (
     <div>
+      <div className='en'>
       <NavBarLanding/>
-      <h1 className='en'>Welcome to Magic Minds </h1>
-      <h1 className='es'>Bienvenidos a Mentes Mágicas</h1>
-      <h2 className='en'>Select your view</h2>
-      <h2 className='es'>Seleccione su vista</h2>
+      <h1>Welcome to Magic Minds</h1>
+      <h2>Select your view</h2>
       <div className='card-container-landing'>
       <Cards
         link ="/student"
         title="Student"
         image={STUDENT}
         />
-
       <Cards
         link="/home" 
         title="Parent"
         image={PARENT}/> 
       </div>
+     </div>
+
+     <div className='es'>
+      <NavBarLanding/>
+      <h1>Bienvinido a Mentes Mágicas</h1>
+      <h2>Seleccione su vista</h2>
+      <div className='card-container-landing'>
+      <Cards
+        link ="/student"
+        title="Estudiante"
+        image={STUDENT}
+        />
+      <Cards
+        link="/home" 
+        title="Padres"
+        image={PARENT}/> 
+      </div>  
+     </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import NavBarSpanish from './NavBarSpanish';
 
 function FAQ() {
   function toggleFunction() {
@@ -12,6 +13,7 @@ function FAQ() {
   }
   return (
     <div>
+      <div className='en'>
       <NavBar/>
       <h1>Frequently Asked Questions</h1>
       <p>We believe that addressing the educational inequities faced by students living in poverty is a critical issue. 
@@ -41,10 +43,46 @@ function FAQ() {
             <p class="answer">Answer 4</p>
           </div>
           <div class="faq">
-            <h2 class="question">Is Magic Minds safe for my shild to use?</h2>
+            <h2 class="question">Is Magic Minds safe for my child to use?</h2>
             <p class="answer">Answer 5</p>
           </div>
-          
+        </div>
+        </div>
+
+      <div className='es'>
+      <NavBarSpanish/>
+      <h1>Preguntas Frecuentes</h1>
+      <p>Creemos que abordar las desigualdades educativas que enfrentan los estudiantes que viven en la pobreza es un tema crítico. Al proporcionar acceso gratuito a recursos
+        educativos, podemos ayudar a nivelar el campo de juego y mejorar los resultados académicos para los estudiantes desfavorecidos. La educación es esencial para romper el
+        ciclo de la pobreza y aumentar la movilidad socioeconómica ascendente. Además, proporcionar oportunidades de educación equitativas puede ayudar a reducir las desigualdades
+        entre raza, clase y género. La medición de los resultados a través de puntajes de pruebas estandarizadas y encuestas de satisfacción de los estudiantes puede ayudar a
+        determinar la efectividad de nuestra solución y guiarnos para mejorar en el futuro.</p>
+
+        <div class="faq-container">
+          <div class="faq">
+            <button onclick="toggleFunction()" class="question">¿Cuáles son las diferentes "vistas"?</button>
+            <p id="answer">Nuestro sitio web ofrece dos vistas diferentes para ofrecer una experiencia de usuario más personalizada y mejorada.
+            La vista del estudiante está organizada por asignatura escolar donde el usuario puede explorar juegos educativos y recursos de
+            aprendizaje. ¡La vista para padres ofrece un conjunto diferente de recursos, como tutoría y otras formas de ayudar a su hijo a
+            tener éxito!</p>
+          </div>
+          <div class="faq">
+            <h2 class="question">¿Cómo puedo apoyar mejor a mi hijo?</h2>
+            <p class="answer"> </p>
+          </div>
+          <div class="faq">
+            <h2 class="question">¿Por qué debería usar Mentes Mágicas?</h2>
+            <p class="answer"> </p>
+          </div>
+          <div class="faq">
+            <h2 class="question">¿Cómo debo usar Mentes Mágicas?</h2>
+            <p class="answer"> </p>
+          </div>
+          <div class="faq">
+            <h2 class="question">¿Es seguro que mis hijos usen Mentes Mágicas?</h2>
+            <p class="answer"> </p>
+          </div>
+        </div>
         </div>
     </div>
     

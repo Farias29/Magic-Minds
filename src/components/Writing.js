@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResourceCards from './ResourceCards';
 import BackButton from './BackButton';
+import BackButtonSpanish from './BackButtonSpanish';
 import ABCYA from './img/ABCYA.png';
 import FUN from './img/FUN.png';
 import TOPMARKS from './img/TOPMARKS.jpg';
@@ -62,10 +63,10 @@ const Writing = () => {
   };
 
   return (
-    <div className="writing">
+<div className="writing">
+      <div className='en'>
       <NavBarLanding/>
-      <h1 className='en'>Writing</h1>
-      <h1 className='es'>Escritura</h1>
+      <h1>Writing</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>
@@ -75,6 +76,21 @@ const Writing = () => {
         </select>
       </div>
       <div className="resource-container">{renderResources()}</div>
+      </div>
+
+      <div className='es'>
+      <NavBarLanding/>
+      <h1>Escritura</h1>
+      <BackButtonSpanish />
+      <div>
+        <label htmlFor="category-select">Seleccione Categoría:</label>
+        <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
+          <option value="Games">Juegos</option>
+          <option value="Practice">Practica</option>
+        </select>
+      </div>
+      <div className="resource-container">{renderResources()}</div>
+      </div>
     </div>
   );
 };

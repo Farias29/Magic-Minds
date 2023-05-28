@@ -9,15 +9,16 @@ import Landing from './components/Landing';
 import AboutUsStudent from './components/AboutUsStudent';
 import Student from './components/Student';
 import './index.css';
-import FAQStudent from './components/FAQStudent';
 import FAQ from './components/FAQ';
-import LanguageSelector from './components/LanguageSelector';
 import Math from './components/Math';
 import Writing from './components/Writing';
 import SocialStudies from './components/SocialStudies';
 import Science from './components/Science';
 import Art from './components/Art';
 import Reading from './components/Reading';
+import TutoringServices from './components/TutoringServices';
+import SchoolSupplies from './components/SchoolSupplies';
+import AffordableDevices from './components/AffordableDevices';
 
 function App() {
   return (
@@ -33,13 +34,15 @@ function App() {
           <Route exact path="/student" component={Student} />
           <Route exact path="/nav-bar" component={NavBar} />
           <Route exact path="/faq" component={FAQ} />
-          <Route exact path="/faq-student" component={FAQStudent} />  
           <Route exact path="/math" component={Math} />
           <Route exact path="/writing" component={Writing} />        
           <Route exact path="/socialstudies" component={SocialStudies} />
           <Route exact path="/science" component={Science} />  
           <Route exact path="/reading" component={Reading} />
-          <Route exact path="/art" component={Art} />           
+          <Route exact path="/art" component={Art} />
+          <Route exact path="/tutoringservices" component={TutoringServices} />
+          <Route exact path="/schoolsupplies" component={SchoolSupplies} />
+          <Route exact path="/affordabledevices" component={AffordableDevices} />
         </Switch>
       </div>
     </Router>

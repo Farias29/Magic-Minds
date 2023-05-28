@@ -74,7 +74,7 @@ h1,h2 {
   .navbar a {
     color: rgb(210, 210, 210);
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   
@@ -103,7 +103,7 @@ h1,h2 {
   .navbarstudent a {
     color: rgb(210, 210, 210);
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 5px;
   }
   
   .navbarstudent a:hover {
@@ -245,12 +245,12 @@ h1,h2 {
   }
 
   /*Translator*/
-  .en{
-    display: block;
-  }
-  
   .es{
     display: none;
+  }
+  
+  .en{
+    display: block;
   }
 
   .translate-button{
@@ -262,10 +262,9 @@ h1,h2 {
     background-color: rgb(210, 210, 210);
     text-decoration: none;
     color: black;
-    right: 25px;
+    right: 15px;
     top: 10px;;
     position: absolute;
-    border-radius: 30%;
   }
   .translate-button:hover{
     background-color: white;

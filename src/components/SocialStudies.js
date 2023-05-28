@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResourceCards from './ResourceCards';
 import BackButton from './BackButton';
+import BackButtonSpanish from './BackButtonSpanish';
 import ICIVICS from './img/ICIVICS.png';
 import MISSION from './img/MISSION.jpg';
 import BBC from './img/BBC.jpg';
@@ -56,10 +57,10 @@ const SocialStudies = () => {
   };
 
   return (
-    <div className="socialstudies">
+<div className="socialstudies">
+      <div className='en'>
       <NavBarLanding/>
-      <h1 className='en'>Social Studies</h1>
-      <h1 className='es'>Ciencias Sociales</h1>
+      <h1>Social Studies</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>
@@ -69,6 +70,21 @@ const SocialStudies = () => {
         </select>
       </div>
       <div className="resource-container">{renderResources()}</div>
+      </div>
+
+      <div className='es'>
+      <NavBarLanding/>
+      <h1>Ciencias Sociales</h1>
+      <BackButtonSpanish />
+      <div>
+        <label htmlFor="category-select">Seleccione Categoría:</label>
+        <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
+          <option value="Games">Juegos</option>
+          <option value="Practice">Practica</option>
+        </select>
+      </div>
+      <div className="resource-container">{renderResources()}</div>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResourceCards from './ResourceCards';
 import BackButton from './BackButton';
+import BackButtonSpanish from './BackButtonSpanish';
 import PBS from './img/PBS.jpg';
 import MONSTER from './img/MONSTER.png';
 import SPLASHREADING from './img/SPLASHREADING.png';
@@ -58,9 +59,9 @@ const Reading = () => {
 
   return (
     <div className="reading">
+      <div className='en'>
       <NavBarLanding/>
-      <h1 className='en'>Reading</h1>
-      <h1 className='es'>Lectura</h1>
+      <h1>Reading</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>
@@ -70,6 +71,21 @@ const Reading = () => {
         </select>
       </div>
       <div className="resource-container">{renderResources()}</div>
+      </div>
+
+      <div className='es'>
+      <NavBarLanding/>
+      <h1>Lectura</h1>
+      <BackButtonSpanish />
+      <div>
+        <label htmlFor="category-select">Seleccione Categoría:</label>
+        <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
+          <option value="Games">Juegos</option>
+          <option value="Practice">Practica</option>
+        </select>
+      </div>
+      <div className="resource-container">{renderResources()}</div>
+      </div>
     </div>
   );
 };

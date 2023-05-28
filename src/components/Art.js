@@ -7,6 +7,7 @@ import ARTPBS from './img/ARTPBS.png';
 import TATEKIDS from './img/TATEKIDS.png';
 import QUIZZES from './img/QUIZZES.png';
 import NavBarLanding from './NavBarLanding';
+import BackButtonSpanish from './BackButtonSpanish';
 
 const Art = () => {
   const [selectedCategory, setSelectedCategory] = useState('Games');
@@ -63,9 +64,9 @@ const Art = () => {
 
   return (
     <div className="art">
+      <div className='en'>
       <NavBarLanding/>
-      <h1 className='en'>Art</h1>
-      <h1 className='es'>Arte</h1>
+      <h1>Art</h1>
       <BackButton />
       <div>
         <label htmlFor="category-select">Select Category:</label>
@@ -75,6 +76,21 @@ const Art = () => {
         </select>
       </div>
       <div className="resource-container">{renderResources()}</div>
+      </div>
+
+      <div className='es'>
+      <NavBarLanding/>
+      <h1>Arte</h1>
+      <BackButtonSpanish />
+      <div>
+        <label htmlFor="category-select">Seleccione Categoría:</label>
+        <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
+          <option value="Games">Juegos</option>
+          <option value="Practice">Practica</option>
+        </select>
+      </div>
+      <div className="resource-container">{renderResources()}</div>
+      </div>
     </div>
   );
 };
