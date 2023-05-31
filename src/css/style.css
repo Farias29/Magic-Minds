@@ -29,20 +29,26 @@ h1,h2 {
 
 /* Answer styles */
 .answer {
-  display: none;
+  display: inline-block;
 }
-.answer.active {
-  display: block;
+
+.tip {
+  font-style: italic;
 }
+
 
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .column {
   flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 800px) {
